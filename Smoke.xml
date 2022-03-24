@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "Smoke">
+    <test name="Smoke module 9">
+        <classes>
+            <class name="RenasTech.Day5.C1_TestNG_example2"></class>
+            <class name="RenasTech.Day5.C2_GoogleTestNG"></class>
+            <class name="RenasTech.Day5.C3_Dropdown"></class>
+        </classes>
+    </test>
+</suite>

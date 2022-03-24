@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="regression">
+    <test name="regression renastech" parallel="classes" thread-count="5">
+        <classes>
+            <class name="RenasTech.Day4.Assignment_checkbox"></class>
+            <class name="RenasTech.Day5.C3_Dropdown"></class>
+            <class name="RenasTech.Day6.C1_Smart_Bear_Login"></class>
+            <class name="RenasTech.Day7.C1_WecTable"></class>
+        </classes>
+    </test>
+</suite>
